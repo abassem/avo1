@@ -1,0 +1,404 @@
+<!-- by deQuanta-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title></title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content=" Responsive web " />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href="css/bootstrap-3.1.1.min.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel='stylesheet' type='text/css' />
+<link rel="stylesheet" href="css/jquery.countdown.css" />
+
+<link href="https://fonts.googleapis.com/css?family=Changa" rel="stylesheet"> <!----font-Awesome----->
+<link href="css/font-awesome.css" rel="stylesheet"> 
+<!----font-Awesome----->
+<script>
+$(document).ready(function(){
+    $(".dropdown").hover(            
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideDown("fast");
+            $(this).toggleClass('open');        
+        },
+        function() {
+            $('.dropdown-menu', this).stop( true, true ).slideUp("fast");
+            $(this).toggleClass('open');       
+        }
+    );
+});
+</script>
+</head>
+<nav class="navbar navbar-default" role="navigation">
+	<div class="container">
+	    <div class="navbar-header">
+	        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+	        </button>
+	        <a class="navbar-brand" href="index.html">أفوكاتو</a>
+	    </div>
+	    <!--/.navbar-header-->
+	    
+
+	    <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1" style="height: 1px;">
+	        <ul class="nav navbar-nav">
+		        <li class="dropdown">
+		            <a href="login.html"><i class="fa fa-user"></i><span>فهرست</span></a>
+		        </li>
+		        <li class="dropdown">
+		        	<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-list"></i><span>فهرست</span></a>
+		        	  <ul class="dropdown-menu">
+			            <li><a href="courses.html">مع يتم كردة فهرست</a></li>
+			            <li><a href="courses.html">مع يتم كردة </a></li>
+			            <li><a href="course_detail.html">مع يتم كردة </a></li>
+		              </ul>
+		        </li>
+		        <li class="dropdown">
+		            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-calendar"></i><span>فهرست</span></a>
+		             <ul class="dropdown-menu">
+			            <li><a href="events.html">كردة</a></li>
+			            <li><a href="events.html">كردة</a></li>
+			            <li><a href="events.html">كردة</a></li>
+		             </ul>
+		        </li>
+		        
+		        <li class="dropdown">
+		            <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-search"></i><span>فهرست</span></a>
+		            <ul class="dropdown-menu search-form">
+			           <form>        
+                            <input type="text" class="search-text" name="s" placeholder="Search...">    
+                            <button type="submit" class="search-submit"><i class="fa fa-search"></i></button>
+                       </form>
+			        </ul>
+		        </li>
+		    </ul>
+	    </div>
+	    <div class="clearfix"> </div>
+	  </div>
+	    <!--/.navbar-collapse-->
+</nav>
+<nav class="navbar nav_bottom" role="navigation">
+ <div class="container">
+ <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header nav_2">
+      <button type="button" class="navbar-toggle collapsed navbar-toggle1" data-toggle="collapse" data-target="#bs-megadropdown-tabs">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"></a>
+   </div> 
+   <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-megadropdown-tabs">
+        <ul class="nav navbar-nav nav_1">
+            <li><a href="index.html">فهرست</a></li>
+            <li><a href="about.html">فهرست</a></li>
+    		<li class="dropdown mega-dropdown active">
+			    <a href="#" class="dropdown-toggle" data-toggle="dropdown">فهرست<span class="caret"></span></a>				
+				<div class="dropdown-menu mega-dropdown-menu">
+                    <div class="container-fluid">
+    				    <!-- Tab panes -->
+                        <div class="tab-content">
+                          <div class="tab-pane active" id="men">
+                            <ul class="nav-list list-inline">
+                                <li><a href="admission.html"><img src="images/t7.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="admission.html"><img src="images/t8.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="admission.html"><img src="images/t9.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="admission.html"><img src="images/t1.jpg" class="img-responsive" alt=""/></a></li>
+                            </ul>
+                          </div>
+                          <div class="tab-pane" id="women">
+                            <ul class="nav-list list-inline">
+                                <li><a href="admission.html"><img src="images/t1.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="admission.html"><img src="images/t2.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="admission.html"><img src="images/t3.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="admission.html"><img src="images/t4.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="admission.html"><img src="images/t5.jpg" class="img-responsive" alt=""/></a></li>
+                                <li><a href="admission.html"><img src="images/t6.jpg" class="img-responsive" alt=""/></a></li>
+                            </ul>
+                         </div>
+                       </div>
+                    </div>
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs" role="tablist">
+                       <li class="active"><a href="#men" role="tab" data-toggle="tab">فهرست</a></li>
+                       <li><a href="#women" role="tab" data-toggle="tab">فهرست</a></li>
+                   </ul>                    
+				</div>				
+			</li>
+			<li><a href="faculty.html">فهرست</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">فهرست<span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="terms.html">فهرست</a></li>
+                <li><a href="shortcodes.html">فهرست</a></li>
+                <li><a href="faq.html">فهرست</a></li>
+              </ul>
+            </li>
+            <li><a href="services.html">فهرست</a></li>
+            
+            <li class="last"><a href="contact.html">فهرست</a></li>
+        </ul>
+     </div><!-- /.navbar-collapse -->
+   </div>
+</nav>
+<!-- banner -->
+	
+	<!-- //banner -->
+	<div class="details">
+       <div class="container">
+		 <div class="col-sm-10 dropdown-buttons">   
+			
+			<div class="col-sm-3 dropdown-button">           			
+    		  <div class="input-group">
+                <input class="form-control has-dark-background" name="slider-name" id="slider-name" placeholder="فهرست" type="text" required="">
+              </div>
+			</div>
+
+			<div class="col-sm-3 dropdown-button">           			
+    		  <div class="section_1">
+				 <select id="country" onchange="change_country(this.value)" class="frm-field required">
+					<option value="null">فهرست</option>
+					<option value="null">فهرست</option>         
+					<option value="AX">فهرست</option>
+					<option value="AX">فهرست</option>
+				 </select>
+			  </div>
+			</div>
+    	   <div class="col-sm-3 dropdown-button">           			
+    		  <div class="section_1">
+				 <select id="country" onchange="change_country(this.value)" class="frm-field required">
+					<option value="null">فهرست فهرست</option>
+					<option value="null">فهرست</option>         
+					<option value="AX">فهرست</option>
+					<option value="AX">فهرست</option>
+				 </select>
+			  </div>
+			</div>
+
+		     <div class="col-sm-3 dropdown-button">
+			  <div class="section_1">
+				 <select id="country" onchange="change_country(this.value)" class="frm-field required">
+					<option value="null">فهرست</option>
+					<option value="null">فهرست</option>         
+					<option value="AX">فهرست</option>
+					<option value="AX">فهرست</option>
+				 </select>
+			  </div>
+			 </div>
+			 <div class="clearfix"> </div>
+		  </div> 
+		  <div class="col-sm-2 submit_button"> 
+		   	  <form>
+		   	     <input type="submit" value="فهرست">
+		   	  </form>
+		   </div>
+		   <div class="clearfix"> </div>
+	     </div>
+     </div>
+
+   <div class="bottom_content">  
+   	 <h3>أقسام</h3>
+     <div class="grid_2">
+     	<div class="col-md-4 portfolio-left">
+            <div class="portfolio-img event-img">
+                <img src="images/t15.jpg" class="img-responsive" alt=""/>
+                <div class="over-image"></div>
+            </div>
+            <div class="portfolio-description">
+               <h4><a href="#">دنو, إعلان</a></h4>
+               <p>قول التي وبريطانيا إذ دنو, إعلان المعاهدات ٣٠ أخذ. و للجزر العالمية بحث, بها في وباءت مقاطعة v. الشمال الغالي الشتوية أي تلك, دفّة إحتار والفلبين تحت عل. به، وانهاء واعتلاء أم, من فسقط وحتّى وبالتحديد، وفيv</p>
+                <span>
+                  <a href="students.html">الشمال واعتلاء</a>
+                  <a href="students.html"> الشمال</a>
+                </span>
+                <a href="events.html">
+                    <span><i class="fa fa-chain chain_1"></i>الشمال</span>
+                </a>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-4 portfolio-left">
+            <div class="portfolio-img event-img">
+                <img src="images/t10.jpg" class="img-responsive" alt=""/>
+                 <div class="over-image"></div>
+            </div>
+            <div class="portfolio-description">
+               <h4><a href="#">دنو, إعلان</a></h4>
+               <p>قول التي وبريطانيا إذ دنو, إعلان المعاهدات ٣٠ أخذ. و للجزر العالمية بحث, بها في وباءت مقاطعة v. الشمال الغالي الشتوية أي تلك, دفّة إحتار والفلبين تحت عل. به، وانهاء واعتلاء أم, من فسقط وحتّ</p>
+               <span>
+                  <a href="students.html">دنو, إعلان</a>
+                  <a href="students.html">الغال</a>
+                </span>ƒ
+                <a href="events.html">
+                    <span><i class="fa fa-chain chain_1"></i>المعاهدات</span>
+                </a>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-4 portfolio-left">
+            <div class="portfolio-img event-img">
+                <img src="images/t12.jpg" class="img-responsive" alt=""/>
+                 <div class="over-image"></div>
+            </div>
+            <div class="portfolio-description">
+               <h4><a href="#">دنو, إعلان</a></h4>
+               <p>قول التي وبريطانيا إذ دc المعاهدات ٣٠ أخذ. و للجزر العالمية بحث, بها في وباءت مقاطعة v. الشمال الغالي الشتوية أي تلك, دفّة إحتار والفلبين تحت عل. به، وانهاء واعتلاء أم, من فسقط وحتّ</p>
+               <span>
+                  <a href="students.html">دنو, إعلان</a>
+                  <a href="students.html">الغال</a>
+                </span>
+                <a href="events.html">
+                    <span><i class="fa fa-chain chain_1"></i>المعاهدات</span>
+                </a>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="clearfix"> </div>
+     </div>
+     <div class="grid_3">
+     	<div class="col-md-4 portfolio-left">
+            <div class="portfolio-img event-img">
+                <img src="images/t11.jpg" class="img-responsive" alt=""/>
+                 <div class="over-image"></div>
+            </div>
+            <div class="portfolio-description">
+               <h4><a href="#">دنو, إعلان</a></h4>
+               <p>قول التي وبريطانيا إذ دنو, إعلان المعاهدات ٣٠ أخذ. و للجزر العالمية بحث, بها في وباءت مقاطعة v. الشمال الغالي الشتوية أي تلك, دفّة إحتار والفلبين تحت عل. به، وانهاء واعتلاء أم, من فسقط وحتّ</p>
+                <span>
+                  <a href="students.html">دنو, إعلان</a>
+                  <a href="students.html">الغال</a>
+                </span>
+                <a href="events.html">
+                    <span><i class="fa fa-chain chain_1"></i>المعاهدات</span>
+                </a>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-4 portfolio-left">
+            <div class="portfolio-img event-img">
+                <img src="images/t14.jpg" class="img-responsive" alt=""/>
+                 <div class="over-image"></div>
+            </div>
+            <div class="portfolio-description">
+               <h4><a href="#">دنو, إعلان</a></h4>
+               <p>قول التي وبريطانيا إذ دنو, إعلان المعاهدات ٣٠ أخذ. و للجزر العالمية بحث, بها في وباءت مقاطعة v. الشمال الغالي الشتوية أي تلك, دفّة إحتار والفلبين تحت عل. به، وانهاء واعتلاء أم, من فسقط وحتّ</p>
+               <span>
+                  <a href="students.html">دنو, إعلان</a>
+                  <a href="students.html">الغال</a>
+                </span>
+                <a href="events.html">
+                    <span><i class="fa fa-chain chain_1"></i>المعاهدات</span>
+                </a>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="col-md-4 portfolio-left">
+            <div class="portfolio-img event-img">
+                <img src="images/t13.jpg" class="img-responsive" alt=""/>
+                 <div class="over-image"></div>
+            </div>
+            <div class="portfolio-description">
+               <h4><a href="#">دنو, إعلان</a></h4>
+               <p>قول التي وبريطانيا إذ دنو, للجزر المعاهدات ٣٠ أخذ. و للجزر العالمية بحث, بها في وباءت مقاطعة v. الشمال الغالي الشتوية أي تلك, دفّة إحتار والفلبين تحت عل. به، وانهاء واعتلاء أم, من فسقط وحتّ</p>
+               <span>
+                  <a href="students.html">دنو, إعلان</a>
+                  <a href="students.html">الغال</a>
+                </span>
+                <a href="events.html">
+                    <span><i class="fa fa-chain schain_1"></i>المعاهدات</span>
+                </a>
+            </div>
+            <div class="clearfix"> </div>
+        </div>
+        <div class="clearfix"> </div>
+     </div>
+    </div>
+    <div class="footer">
+    	<div class="container">
+    		<div class="col-md-3 grid_4">
+    		   <h3>About Us</h3>	
+    		   <p>" إعلان المعاهدات ٣٠ أخذ. و للجزر العالمية بحث, بها في وباءت مقاطعة v. الشمال الغالي الشتوية أي تلك, دفّة إحتار والفلبين تحت عل. "</p>
+    		      <ul class="social-nav icons_2 clearfix">
+                    <li><a href="#" class="twitter"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#" class="facebook"> <i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a></li>
+                 </ul>
+    		</div>
+    		<div class="col-md-3 grid_4">
+    		   <h3>Quick Links</h3>
+    			<ul class="footer_list">
+    				<li><a href="#">-  ّة إحتار والفلبين تحت عل. </a></li>
+    				<li><a href="#">-  لجزر العالمية بحث, به/a></li>
+    				<li><a href="#">-   إعلان المعاهدات ٣</a></li>
+    				<li><a href="#">-   إحتار والفلبين تحت </a></li>
+    				<li><a href="#">-    بها في وباءت مقاطعة /a></li>
+    			</ul>
+    		</div>
+    		<div class="col-md-3 grid_4">
+    		   <h3>Contact Us</h3>
+    			<address>
+                    <strong> بها في وباءت مقاطعة </strong>
+                    <br>
+                    <span>4877444 </span>
+                    <br><br>
+                    <span> بها في وباءت مقاطعة </span>
+                    <br>
+                    <abbr>Telephone : </abbr> +202544444
+                    <br>
+                    <abbr>Email : </abbr> <a href="mailto@example.com">info(at)avocato.com</a>
+               </address>
+    		</div>
+    		<div class="col-md-3 grid_4">
+    		   <h3>الشمالالشمال</h3>
+    			 <table class="table_working_hours">
+		        	<tbody>
+		        		<tr class="opened_1">
+							<td class="day_label">للجزر</td>
+							<td class="day_value">9:30  - 6.00 </td>
+						</tr>
+					    <tr class="opened">
+							<td class="day_label">للجزر</td>
+							<td class="day_value">9:30  - 6.00 </td>
+						</tr>
+					    <tr class="opened">
+							<td class="day_label">للجزر</td>
+							<td class="day_value">9:30  - 6.00 </td>
+						</tr>
+					    <tr class="opened">
+							<td class="day_label">للجزر</td>
+							<td class="day_value">9:30  - 6.00 </td>
+						</tr>
+					    <tr class="opened">
+							<td class="day_label">للجزر</td>
+							<td class="day_value">9:30  - 3.00 </td>
+						</tr>
+					    <tr class="closed">
+							<td class="day_label">للجزر</td>
+							<td class="day_value closed"><span>الشمال</span></td>
+						</tr>
+					    <tr class="closed">
+							<td class="day_label">للجزر</td>
+							<td class="day_value closed"><span>الشمال</span></td>
+						</tr>
+				    </tbody>
+				</table>
+            </div>
+    		<div class="clearfix"> </div>
+    		<div class="copy">
+		       <p>Copyright  | <a href="http://deQuanta.com/" target="_blank">deQuanta</a> </p>
+	        </div>
+    	</div>
+    </div>
+<script src="js/jquery.countdown.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>	
